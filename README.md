@@ -28,7 +28,7 @@ So the only way to be sure that in-camera JPEGs are produced from uncompressed p
 force camera to dump uncompressed raw files as well (which for many cameras is hard and involves all kind of tricks).
 
 
-There are sample compressed files from Xiaomi Yi and Firefly 8SE (ff8se) for documentation purposes. 
+There are sample compressed &lowast;RAW files from Xiaomi Yi and Firefly 8SE (ff8se) for documentation purposes. 
 Check [Amba_Compressed_Samples/](https://github.com/glagolj/aaraw/tree/main/Amba_Compressed_Samples)
 
 
