@@ -10,7 +10,8 @@ Hard case: provide width and height and pitch (if file truncated or odd)
 
 ```
 
-The decompression algorithm is well commented in the source file amba_decompress.c.
+The decompression algorithm is well commented in the source file 
+[amba_decompress.c](https://github.com/glagolj/aaraw/blob/main/amba_decompress.c).
 In short blocks of 32 pixels (12 or 10 bit per pixel) are compressed to 27 bytes.
 Thus instead of 32⋅12bits=384bits algorithm uses only 27⋅8=216bits.
 Compression ratio is 216/384=56.25%, e.g. instead of 12bits,
