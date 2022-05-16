@@ -1,4 +1,4 @@
-# 1 DECOMPRESS AMBARELLA COMPRESSED RAW FILES
+# 1 Decompress Ambarella compressed raw files
 
 ```
 USAGE:
@@ -28,8 +28,12 @@ So the only way to be sure that in-camera JPEGs are produced from uncompressed p
 force camera to dump uncompressed raw files as well (which for many cameras is hard and involves all kind of tricks).
 
 
-There are sample compressed files from Xiaomi Yi and Firefly 8SE
-(ff8se) for documentation purposes: check Amba_Compressed_Samples/.
+There are sample compressed files from Xiaomi Yi and Firefly 8SE (ff8se) for documentation purposes. 
+Check [Amba_Compressed_Samples/](https://github.com/glagolj/aaraw/tree/main/Amba_Compressed_Samples)
+
+
+For windows and Linux executables check: [Binary/](https://github.com/glagolj/aaraw/tree/main/Binary)
+
 
 
 
