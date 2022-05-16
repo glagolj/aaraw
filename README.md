@@ -1,4 +1,4 @@
-#1 DECOMPRESS AMBARELLA COMPRESSED RAW FILES
+# 1 DECOMPRESS AMBARELLA COMPRESSED RAW FILES
 
 ```
 USAGE:
@@ -33,7 +33,7 @@ There are sample compressed files from Xiaomi Yi and Firefly 8SE
 
 
 
-#2 What to do with uncompressed raw files from action cameras?
+# 2 What to do with uncompressed raw files from action cameras?
 
 
 Most online tutorials and tools (search "raw2dng") use wrong color calibration.
