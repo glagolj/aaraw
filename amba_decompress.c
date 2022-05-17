@@ -34,6 +34,7 @@
      FF8SE
 
   Versions: 
+     1.06 (2022/05/17)   fix bug
      1.05 (2022/05/14)   small fixes for easier usage
      1.00 (2020/07/27)   first release
      0.90 (2019/09/14)   fix ~2 right edge pixels bug
@@ -361,6 +362,8 @@ int main(int in_argc, char **in_argv) {
   }
 
   for( i_arg=1 ; i_arg<argc ; i_arg++ ){
+#define MAX_NAME (2048)
+    char            out2[MAX_NAME];
     char           *filename = argv[i_arg];
     char           *out_name = in_out_name;
     int             nx       = in_nx; /* from input arguments */
@@ -373,8 +376,7 @@ int main(int in_argc, char **in_argv) {
 
 
     if( out_name == NULL ){ /* auto naming */
-#define MAX_NAME (2048)
-      char *p,out2[MAX_NAME];
+      char *p;
       strncpy( out2, filename, MAX_NAME-16 );
       out2[MAX_NAME-16] = 0; /* just in case */
       for( p=out2 ; *p ; p++ );
